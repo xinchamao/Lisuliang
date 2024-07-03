@@ -1,0 +1,57 @@
+.make{
+	width:100%;
+	height:700px;
+	background: #fff;
+}
+.make header{
+	width:508px;
+	height: 95px;
+	background: #f7f7f7;
+	border-radius: 48px;
+	margin:220px auto 0;
+	box-sizing:border-box;
+	padding:7px 0 0 35px;
+}
+.make p{
+	margin-top: 10px;
+	text-align: center;
+	color: #db0067;
+}
+.make ul{
+	margin:70px auto 0;
+	width: 960px;
+}
+.make ul li{
+	width:195px;
+	height:195px;
+	border:1px solid #ccc;
+	border-radius: 50%;
+	float:left;
+	margin-right:5%;
+	margin-bottom:40px;
+	position:relative;
+}
+.make ul li img{
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+}
+.make ul li:nth-child(4),.make ul li:nth-child(8){
+	margin-right:0;
+}
+.make ul li .tihuan{
+	opacity: 0;
+	transition:all 0.4s ease-in 0.2s;	
+}
+.make ul li:hover .tihuan{
+	opacity: 1;
+	transform:translate(-50%,-50%) scale(0.75);	
+}
+.make ul li .tu{
+	transition:all 0.4s ease-in 0s;
+}
+.make ul li:hover .tu{
+	opacity: 0;
+	transform:translate(-50%,-50%) scale(0.5);
+}

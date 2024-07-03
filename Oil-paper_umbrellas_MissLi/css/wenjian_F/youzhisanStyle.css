@@ -1,0 +1,20 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	border: 0 solid #f00;
+	list-style: none;
+}
+body{
+	font-family: "微软雅黑",Arial;
+	font-size: 14px;
+}
+a:link,a:visited{
+	color: #999;
+	text-decoration: none;
+}
+a:hover{
+	color: #fff;
+}
+input,textarea{
+	outline: none;
+}

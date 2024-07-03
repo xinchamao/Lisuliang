@@ -1,0 +1,96 @@
+/* 页脚 */
+footer {
+	width: 100%;
+	height: 400px;
+	background: #545861;
+	border-bottom: 1px solid #fff;
+}
+
+footer .logo {
+	width: 1000px;
+	height: 100px;
+	margin: 0 auto;
+	background: url(../images/logo1.jpg) no-repeat center center;
+	border-bottom: 1px solid #8c9299;
+}
+
+footer .message {
+	width: 1000px;
+	margin: 20px auto 0;
+	color: #fffada;
+}
+
+footer .message .left {
+	width: 525px;
+	float: left;
+	padding-left: 30px;
+	box-sizing: border-box;
+}
+
+footer .message .left li {
+	float: left;
+	margin-right: 30px;
+}
+
+footer .message .left li input {
+	width: 215px;
+	height: 32px;
+	border-radius: 5px;
+	margin: 10px 0 15px 0;
+	padding-left: 10px;
+	box-sizing: border-box;
+	border: none;
+}
+
+footer .message .left li:last-child input {
+	width: 120px;
+	height: 39px;
+	padding-left: 0;
+	border: none;
+	background: url(../images/but.jpg) no-repeat;
+}
+
+footer .message .right {
+	float: left;
+}
+
+footer .message .right p {
+	margin-bottom: 10px;
+}
+
+footer .message .right textarea {
+	width: 400px;
+	height: 172px;
+	padding: 10px;
+	box-sizing: border-box;
+	resize: none;
+}
+/* 页脚 */
+
+
+
+/* 版权 */
+.copyright{width:100%;height:60px;background: #333333;text-align: center;}
+.copyright a{line-height: 60px;}
+/* 版权 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,37 @@
+@font-face {
+	font-family: 'Lisuliang';src:url('../fonts/iconfont.ttf');
+}
+
+
+/*重置默认样式*/
+body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, img {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	list-style: none;
+}
+
+
+
+/*全局样式*/
+body {
+	font-family: "微软雅黑",Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+
+
+/*超链接默认样式*/
+a:link,a:visited {
+	color: #999;
+	text-decoration: none;
+}
+
+
+/*鼠标指针放置在超链接上的样式*/
+a:hover {
+	color: #fff;
+}
+
+input,textarea {
+	outline: none;
+}

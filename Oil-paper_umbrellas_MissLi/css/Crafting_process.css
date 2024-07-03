@@ -1,0 +1,52 @@
+.try{
+	width:100%;
+	height:312px;
+	background:#299585;
+	padding-top: 70px;
+}
+.try header{
+	width:555px;
+	height: 95px;
+	background: #f7f7f7;
+	border-radius: 48px;
+	margin:0 auto;
+	box-sizing:border-box;
+	padding:7px 0 0 35px;
+}
+.try p{
+	margin-top: 10px;
+	text-align: center;
+	color: #fff;
+}
+.try ul{
+	margin:70px auto 0;
+	width: 960px;
+}
+.try ul li{
+	width:291px;
+	height:251px;
+	float: left;
+	margin-right:4%;
+	margin-bottom: 40px;
+	position: relative;
+	perspective:230px;	
+}
+.try ul li:last-child{
+	margin-right: 0;
+}
+.try ul li img{
+	position: absolute;
+	left:0;
+	top:0;
+	backface-visibility:hidden;
+	transition:all 0.5s ease-in 0s;
+}
+.try ul li img.fan{
+ 	transform:rotateX(-180deg);
+ }
+.try ul li:hover img.fan{
+ 	transform:rotateX(0deg);
+ }
+ .try ul li:hover img.zheng{
+ 	transform:rotateX(180deg);
+ } 
